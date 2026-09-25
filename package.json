@@ -1,0 +1,24 @@
+{
+  "name": "zenith-product-api",
+  "version": "1.0.0",
+  "description": "RESTful Product API for Zenith using Node.js, Express, MongoDB, and Mongoose.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "mongodb",
+    "api"
+  ],
+  "author": "Dr. Chantell McDowell, Per Scholas Student",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
