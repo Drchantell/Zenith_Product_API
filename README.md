@@ -1,4 +1,4 @@
-Zenith Product API
+Dr. Chantell's Zenith Product API
 
 This project is a simple API for managing products. It uses Node.js, Express, MongoDB Atlas, and Mongoose.
 
@@ -56,7 +56,20 @@ Example requests
 - GET http://localhost:3000/api/products?sortBy=price_asc
 - GET http://localhost:3000/api/products?page=1&limit=5
 
+API test checklist
+- Confirm the server starts without errors
+- Check the home route returns a success message
+- Create a product with valid data
+- Get all products and confirm the list appears
+- Get one product by ID
+- Update an existing product
+- Delete a product
+- Try invalid data and confirm the API sends a clear error
+
 This project is for learning and practice. It is a basic backend API for product data.
 
-Author: Dr. Chantell McDowell
+This project gave me a chance to build a working product API using Node.js, Express, MongoDB, and Mongoose. I learned how to organize my project, connect to a database, create API routes, and handle input validation. The app includes basic CRUD features and supports filtering, sorting, and pagination. It is a simple but useful backend project that shows how data can be managed in a real application.
+
+Author: 
+Dr. Chantell McDowell
 Per Scholas Student

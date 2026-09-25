@@ -6,7 +6,8 @@ I learned how to connect the backend to MongoDB, create a model, and build route
 
 The hardest part was the GET route because it had to support filters, sorting, and pagination. I learned how to build a query object only when the user sends the right information. I also learned how skip and limit work in MongoDB queries.
 
-This project helped me understand how a backend API works in a real application. It showed me how important it is to keep code organized and easy to read.
+This project helped me understand how a backend API works in a real application. It showed me how important it is to keep code organized and easy to read. I also learned how to test the API and fix small issues that came up during development. This was a good experience because it helped me connect the ideas from class to a real project that can be used for product management.
 
-Author: Dr. Chantell McDowell
+Author: 
+Dr. Chantell McDowell
 Per Scholas Student
