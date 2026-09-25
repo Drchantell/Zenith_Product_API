@@ -40,6 +40,16 @@ API routes
 - PUT /api/products/:id
 - DELETE /api/products/:id
 
+Example product JSON
+{
+  "name": "Laptop",
+  "description": "Gaming laptop",
+  "price": 899.99,
+  "category": "Electronics",
+  "inStock": true,
+  "tags": ["new", "sale"]
+}
+
 Example requests
 - GET http://localhost:3000/api/products
 - GET http://localhost:3000/api/products?category=Electronics
